@@ -13,7 +13,7 @@ const App = () => {
     return (
         <>
             <Header course={course} />
-            <Content part1={part1} exercises1={exercises1} part2={part2} exercises2={exercises2} part3={part1} exercises3={exercises3} />
+            <Content part1={part1} exercises1={exercises1} part2={part2} exercises2={exercises2} part3={part3} exercises3={exercises3} />
             <Total part1={exercises1} part2={exercises2} part3={exercises3} />
         </>
     )

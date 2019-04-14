@@ -48,7 +48,7 @@ const Content = (props) => {
 const Part = (props) => {
     return(
         <>
-            {props.part.name} {props.part.exercises} <br />
+            <p>{props.part.name} {props.part.exercises}</p>
         </>
     )
 }
